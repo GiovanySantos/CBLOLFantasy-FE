@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "test:unit": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --collect-coverage",
     "prepare": "husky install"
   },
   "dependencies": {
