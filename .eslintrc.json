@@ -21,10 +21,10 @@
   "rules": {
     "prettier/prettier": ["error"],
     "import/extensions": 0,
-    "no-console": "off",
-    "no-unused-vars": "off",
+    "no-console": "warn",
+    "no-unused-vars": "error",
+    "no-shadow": "warn",
     "@typescript-eslint/no-unused-vars": ["error"],
-    "no-shadow": "off",
     "@typescript-eslint/no-shadow": "warn"
   }
 }
